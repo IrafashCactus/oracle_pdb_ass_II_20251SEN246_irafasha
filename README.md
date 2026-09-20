@@ -1,9 +1,9 @@
-ASSIGNMENT II
-Course Database Development with PL/SQL (INSY 8311)
-Instructor Eric Maniraguha
+ Repository Link: https://github.com/IrafashCactus/oracle_pdb_ass_II_20251SEN246_irafasha
+ PDB Name Created: ir_pdb_20251SEN246
+ Issues Encountered: Yes
 
-20251SEN246
-IRAFASHA Schadrack
+
+
 1. OVERVIEW OF TASK 
 this assignment were  asking to create pluggable databases (pdb), creating user in it ,  creating and temporary another pdb and deleting it, and also to use oracle enterprise management.
 
@@ -37,10 +37,10 @@ this assignment were  asking to create pluggable databases (pdb), creating user 
     you will them on screenshot
 
  Task 3: Oracle Enterprise Manager (OEM)
-  this task is one which disappointed me i checked port 5500 for oracle enterprise management express but i found no service running  i thought my is becouse i am using free version and i used SQL developer as alternative  i run SELECT con_id, name, open_mode FROM v$pdbs ORDER BY con_id; but i also runned it in SQL*Plus  both they displayed 3 PDBS.
+  this task is one which disappointed me i checked port 5500 for oracle enterprise management express but i found no service running  After research i found that  OEM express is not included in oracle database 26ai Free and i used SQL developer as alternative  i run SELECT con_id, name, open_mode FROM v$pdbs ORDER BY con_id; but i also runned it in SQL*Plus  both they displayed 3 PDBS.
 
 4. Challenges Faced and How They Were Solved
 my challenge many of them are about typing error and OEM express which is not available 
 
 5. Integrity Statement
-I confirm that all screenshot in this repository are my own work executed on my machine. i did not copy from classmates and i did not use AI tool to generate commands but i used to help me to understand and get documandation and cheatsheet for oracle  and also helped me to install oracle 26ai. 
+I confirm that all screenshot in this repository are my own work executed on my machine. i did not copy from classmates and i did not use AI tool to generate commands. 
